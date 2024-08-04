@@ -7,7 +7,7 @@ User = get_user_model()
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
-        email = 'admin@example.com'
+        email = 'dainiuxt@gmail.com'
         new_password = get_random_string(10)
         try:
             u = None
